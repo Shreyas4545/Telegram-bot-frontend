@@ -22,11 +22,11 @@ const AdminLayout = ({ children }) => {
 
   const display = [
     {
-      id: "status",
+      id: "position",
       compo: <Status />,
     },
     {
-      id: "position",
+      id: "status",
       compo: <Position />,
     },
     {

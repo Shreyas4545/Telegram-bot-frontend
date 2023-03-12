@@ -54,7 +54,6 @@ function Position() {
   const getUsers = async () => {
     await axios
       .get(
-        // "https://bot-backend-cqgdkokpt-shreyas4545.vercel.app/api/admin/get-users"
         "https://telegram-bot-backend.vercel.app/api/admin/get-users"
       )
       .then((res) => {
